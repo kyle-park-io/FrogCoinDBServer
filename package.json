@@ -1,0 +1,27 @@
+{
+  "name": "FrogCoinDB",
+  "version": "0.0.1",
+  "description": "리눅스 로 옮기고 첫 작성",
+  "main": "index.js",
+  "scripts": {
+   "start" : "nodemon server",
+   "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kyle",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "axios": "^0.24.0",
+    "bcrypt": "^5.0.1",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "mysql2": "^2.3.3",
+    "pm2": "^5.1.2",
+    "sequelize": "^6.12.0-alpha.1",
+    "sequelize-cli": "^6.3.0"
+  }
+}
