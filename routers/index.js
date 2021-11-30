@@ -12,7 +12,8 @@ router.get('/', (req,res) => {
 
 router.get("/userSession", async (req, res) => {
   try {
-    const user = await Users.findOne({
+console.log('이게 뜨는지 지금 보자');
+	  const user = await Users.findOne({
       where: { email: req.query.ID },
     });
     const api = await Apis.findAll({ where: { email: req.query.ID } });
